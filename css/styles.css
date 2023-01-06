@@ -1,0 +1,160 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    letter-spacing: 0,02em;
+}
+
+/*====================COMPONENTS====================*/
+.logo-text {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+
+.logo-web {
+    color: #4D5AE5;
+}
+
+.frequently-header {
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    color: #2E2F42;
+}
+
+.frequently-description {
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #434455;     
+}
+
+/*====================/COMPONENTS====================*/
+
+/*====================HEADER====================*/
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contact-mail,
+.contact-phone-number {
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #434455;
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #404BBF;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+    color: #404BBF;
+}
+/*====================/HEADER====================*/
+
+/*====================HERO====================*/
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+
+    /* color: #FFFFFF; */
+}
+
+.modal-btn,
+.modal-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: #4D5AE5;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+/*====================/HERO====================*/
+
+/*====================BENEFITS====================*/
+
+
+/*===================/BENEFITS====================*/
+
+/*====================WORK====================*/
+.work-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+/*====================/WORK====================*/
+
+/*====================TEAM====================*/
+
+/*====================/TEAM====================*/
+
+/*====================FOOTER====================*/
+
+.down {
+    color: #E7E9FC;
+}
+
+/*====================/FOOTER====================*/
+
+
+/*====================PORTFOLIO.HTML====================*/
+
+.filter-btn {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+    color: #4D5AE5;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
