@@ -1,6 +1,36 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
+    --card-set-gap: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .list {
@@ -50,18 +80,45 @@ body {
 /*====================/COMPONENTS====================*/
 
 /*====================HEADER====================*/
+.page-header-logo {
+    margin-right: 76px;
+}
+.page-header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
+
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
 }
-
+.contact-mail {
+    margin-left: auto;
+    margin-right: 40px;
+}
 .contact-mail,
 .contact-phone-number {
     font-size: 16px;
@@ -86,17 +143,32 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1,07;
+    
+    padding-top: 188px;
+    padding-left: 317px;
+    padding-right: 317px;
+    margin-bottom: 48px;
 
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .modal-btn,
 .modal-btn {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 188px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
+    border: 1px solid transparent;
+    border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
 
@@ -108,10 +180,40 @@ body {
     color: #FFFFFF;
     background: #404BBF;
 }
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.hero-div {
+    background-color: #2E2F42;
+}
+
 /*====================/HERO====================*/
 
 /*====================BENEFITS====================*/
 
+.benefits-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.benefits {
+    display: flex;
+}
+
+.benefits-header {
+    margin-bottom: 8px;
+    
+}
+
+.benefits > .benefits-item:not(:last-child) {
+    margin-right: 24px;
+    
+}
 
 /*===================/BENEFITS====================*/
 
@@ -121,18 +223,113 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.work-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -24px;
+    margin-top: -24px;
+}
+
+.work-list > .list {
+    margin-top: 24px;
+    margin-left: 24px;
+    flex-basis: calc(100% / 3 -24px)
+    
 }
 
 /*====================/WORK====================*/
 
 /*====================TEAM====================*/
 
+.team-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+
+    text-align: center;
+    text-transform: capitalize;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-top: 120px;
+}
+
+.team-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: calc( -1 * var(--card-set-gap));
+    margin-left: calc( -1 * var(--card-set-gap));
+    padding-bottom: 120px;
+    
+}
+
+
+.team-list > .list {
+    margin-top: var(--card-set-gap);
+    margin-left: var(--card-set-gap);
+    flex-basis: calc(100% / 4 - var(--card-set-gap))
+
+}
+
+.team {
+    margin-top: 32px;
+}
+
+.team-description {
+    margin-top: 8px;
+}
+
+.team-list-content {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;;
+    text-align: center;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+
+
 /*====================/TEAM====================*/
 
 /*====================FOOTER====================*/
 
+.logo-down {
+    color: #F4F4FD;
+}
+
 .down {
     color: #E7E9FC;
+}
+
+.footer-logo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 264px;
+}
+
+.footer-down {
+    background-color: #2E2F42;
 }
 
 /*====================/FOOTER====================*/
