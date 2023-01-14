@@ -313,6 +313,7 @@ body * {
 
 .team-employees {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;;
 }
 
 /*====================/TEAM====================*/
@@ -406,8 +407,14 @@ body * {
 }
 
 .exemples-header {
-    margin-top: 32px;
+    padding-top: 32px;
     margin-left: 16px;
+}
+
+.examples-div {
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 /*====================/PORTFOLIO.HTML====================*/
