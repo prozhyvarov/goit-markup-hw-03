@@ -203,7 +203,6 @@ body * {
 
 .benefits-section {
     padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .benefits {
@@ -237,8 +236,8 @@ body * {
 .work-section {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 120px;
     padding-bottom: 120px;
-
 }
 
 .work-list {
@@ -273,6 +272,7 @@ body * {
     margin-right: auto;
     margin-bottom: 72px;
     padding-top: 120px;
+
 }
 
 .team-list {
@@ -307,8 +307,12 @@ body * {
     text-align: center;
 }
 
-.team-section {
+.team-div {
     background-color: #F4F4FD;
+}
+
+.team-section {
+    
 }
 
 .team-employees {
@@ -389,7 +393,6 @@ body * {
     flex-wrap: wrap;
     margin-left: calc( -1 * var(--card-set-gap));
     margin-top: calc( -1 * var(--card-set-gap));
-    margin-bottom: 120px;
 
 }
 
@@ -415,6 +418,10 @@ body * {
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
+}
+
+.portfolio-div {
+    margin-bottom: 120px;
 }
 
 /*====================/PORTFOLIO.HTML====================*/
