@@ -292,6 +292,9 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
+.team-header {
+  margin-bottom: 72px;
+}
 
 /*=========================/TEAM=========================*/
 
